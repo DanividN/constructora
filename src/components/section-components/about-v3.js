@@ -13,7 +13,7 @@ class AboutV3 extends Component {
 			    <div className="row">
 			      <div className="col-lg-6 align-self-center">
 			        <div className="about-us-img-wrap about-img-left">
-			          <img src={publicUrl+"assets/img/others/11.png"} alt="About Us Image" />
+			          <img src={publicUrl+"assets/img/others/obras.jpg"} alt="About Us Image" />
 			          <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3 d-none">
 			            <div className="ltn__video-img ltn__animation-pulse1">
 			              <img src={publicUrl+"assets/img/others/8.png"} alt="video popup bg image" />
@@ -27,39 +27,18 @@ class AboutV3 extends Component {
 			      <div className="col-lg-6 align-self-center">
 			        <div className="about-us-info-wrap">
 			          <div className="section-title-area ltn__section-title-2--- mb-30">
-			            <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6>
-			            <h1 className="section-title">Dream Living Spaces
-			              Setting New Build</h1>
-			            <p>Over 39,000 people work for us in more than 70 countries all over the
-			              This breadth of global coverage, combined with specialist services</p>
+			            <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">Nosotros</h6>
+			            <h1 className="section-title">
+							 <i className="fa fa-circle-check" /> Misión
+			            </h1>
+			            <p>Construir obras basadas en la calidad y el servicio responsable a nuestros clientes , creciendo en forma rentable y segura ofreciendo distintas modalidades para construir , asesoría en diseños de planos y materiales de construcción obteniendo asi el reconocimiento en nuestro sector mercado con clientes satisfechos.</p>
 			          </div>                        
-			          <div className="ltn__feature-item ltn__feature-item-3">
-			            <div className="ltn__feature-icon">
-			              <span><i className="flaticon-house-4" /></span>
-			            </div>
-			            <div className="ltn__feature-info">
-			              <h4><a href="service-details.html">The Perfect Residency</a></h4>
-			              <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-			            </div>
-			          </div>
-			          <div className="ltn__feature-item ltn__feature-item-3">
-			            <div className="ltn__feature-icon">
-			              <span><i className="flaticon-call-center-agent" /></span>
-			            </div>
-			            <div className="ltn__feature-info">
-			              <h4><a href="service-details.html">Global Architect Experts</a></h4>
-			              <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-			            </div>
-			          </div>
-			          <div className="ltn__feature-item ltn__feature-item-3">
-			            <div className="ltn__feature-icon">
-			              <span><i className="flaticon-maps-and-location" /></span>
-			            </div>
-			            <div className="ltn__feature-info">
-			              <h4><a href="service-details.html">Built-in Storage Cupboards</a></h4>
-			              <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
-			            </div>
-			          </div>
+			        	<div className="section-title-area ltn__section-title-2--- mb-30">
+			            <h1 className="section-title">
+							<i className="fa fa-scale-balanced" /> Visión
+			            </h1>
+			            <p>Construir obras basadas en la calidad y el servicio responsable a nuestros clientes , creciendo en forma rentable y segura ofreciendo distintas modalidades para construir , asesoría en diseños de planos y materiales de construcción obteniendo asi el reconocimiento en nuestro sector mercado con clientes satisfechos.</p>
+			          </div>     
 			        </div>
 			      </div>
 			    </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './global-components/navbar-v2';
 import Banner from './section-components/banner-v2';
-import Aboutv3 from './section-components/about-v3';
+import About from './section-components/about-v3';
 import Video from './section-components/video-v2';
 import Features from './section-components/features-v1';
 import UpComingProduct from './section-components/upcoming-product-v1';
@@ -15,22 +15,16 @@ import BlogSlider from './blog-components/blog-slider-v1';
 import CallToActionV1 from './section-components/call-to-action-v1';
 import Footer from './global-components/footer';
 
+
 const Home_V2 = () => {
     return <div>
         <Navbar />
         <Banner />
-        <Aboutv3 />
-        <Video />
+        <About />
+        <Neighbour />
         <Features customClass="ltn__feature-area section-bg-1--- pt-115 pb-90 mb-120---"/>
         <UpComingProduct />
-        <ApartmentV2 />
-        <ProductSlider />
-        <Availability />
-        <Neighbour />
         <Cateogory />
-        <Testimonial />
-        <BlogSlider />
-        <CallToActionV1 />
         <Footer />
     </div>
 }

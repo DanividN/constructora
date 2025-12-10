@@ -8,14 +8,14 @@ class UpcomingProductV1 extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <div className="ltn__upcoming-project-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg={publicUrl+"assets/img/bg/22.jpg"}>
+    return <div className="ltn__upcoming-project-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg={publicUrl+"assets/img/product-3/fondo-2.jpg"}>
 			  <div className="container">
 			    <div className="row">
 			      <div className="col-lg-12">
 			        <div className="section-title-area ltn__section-title-2--- text-center---">
-			          <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Upcoming Projects</h6>
-			          <h1 className="section-title  white-color">Dream Living Space <br />
-			            Setting New Standards</h1>
+			          <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Nuestros Proyectos</h6>
+			          <h1 className="section-title  white-color">Creamos nuevos espacios<br />
+			            Estableciendo Nuevos Estándares</h1>
 			        </div>
 			      </div>
 			    </div>
@@ -26,23 +26,21 @@ class UpcomingProductV1 extends Component {
 			          <div className="row">
 			            <div className="col-lg-7">
 			              <div className="ltn__upcoming-project-img">
-			                <img src={publicUrl+"assets/img/product-3/3.jpg"} alt="#" />
+			                <img src={publicUrl+"assets/img/product-3/plaza-novum.png"} alt="#" />
 			              </div>
 			            </div>
 			            <div className="col-lg-5 section-bg-1">
 			              <div className="ltn__upcoming-project-info ltn__menu-widget">
-			                <h6 className="section-subtitle ltn__secondary-color mb-0">About Projects</h6>
-			                <h1 className="mb-30">Upcoming Projects</h1>
-			                <ul className="mt">
-			                  <li>1. Project Name: <span>Quarter</span></li>
-			                  <li>2. Project Type: <span>Apartment / Home</span></li>
-			                  <li>3. Building Location: <span>New York, USA</span></li>
-			                  <li>4. No. Of Apartments: <span>568</span></li>
-			                  <li>5. Total Investment: <span>$14,500,00</span></li>
-			                </ul>
-			                <div className="btn-wrapper animated go-top">
-			                  <Link to="/contact" className="theme-btn-1 btn btn-effect-1">Download Brochure</Link>
-			                </div>
+			                <h6 className="section-subtitle ltn__secondary-color mb-0">Sobre Proyectos</h6>
+			                <h1 className="mb-30">PLAZA COMERCIAL NOVUM CUAUHNAHUAC</h1>
+			                <p>Desarrollamos y ejecutamos proyectos de construcción con alta calidad, asesorando en diseños de planos y materiales de construcción.</p> 
+							{/* BUTTON */}
+							<div className="ltn__button-area mt-30">
+								<Link to="/portfolio" className="theme-btn-1 btn">
+									<i className="fas fa-arrow-right" />
+									Ver Proyectos
+								</Link>
+							</div>
 			              </div>
 			            </div>
 			          </div>
@@ -54,23 +52,20 @@ class UpcomingProductV1 extends Component {
 			          <div className="row">
 			            <div className="col-lg-7">
 			              <div className="ltn__upcoming-project-img">
-			                <img src={publicUrl+"assets/img/product-3/2.jpg"} alt="#" />
+			                <img src={publicUrl+"assets/img/product-3/residencial.jpg"} alt="#" />
 			              </div>
 			            </div>
 			            <div className="col-lg-5 section-bg-1">
 			              <div className="ltn__upcoming-project-info ltn__menu-widget">
-			                <h6 className="ltn__secondary-color">About Projects</h6>
-			                <h1>Upcoming Projects</h1>
-			                <ul>
-			                  <li>1. Project Name: <span>Quarter</span></li>
-			                  <li>2. Project Type: <span>Apartment / Home</span></li>
-			                  <li>3. Building Location: <span>New York, USA</span></li>
-			                  <li>4. No. Of Apartments: <span>568</span></li>
-			                  <li>5. Total Investment: <span>$14,500,00</span></li>
-			                </ul>
-			                <div className="btn-wrapper animated go-top">
-			                  <Link to="/contact" className="theme-btn-1 btn btn-effect-1">Download Brochure</Link>
-			                </div>
+			                <h6 className="ltn__secondary-color">Sobre Proyectos</h6>
+			                <h1>DEPARTAMENTOS RESIDENCIALES</h1>
+			                <p>Construcción y diseño de departamentos residenciales.</p>
+							<div className="ltn__button-area mt-30">
+								<Link to="/portfolio" className="theme-btn-1 btn">
+									<i className="fas fa-arrow-right" />
+									Ver Proyectos
+								</Link>
+							</div>
 			              </div>
 			            </div>
 			          </div>
@@ -82,23 +77,20 @@ class UpcomingProductV1 extends Component {
 			          <div className="row">
 			            <div className="col-lg-7">
 			              <div className="ltn__upcoming-project-img">
-			                <img src={publicUrl+"assets/img/product-3/7.jpg"} alt="#" />
+			                <img src={publicUrl+"assets/img/product-3/impermeabilizacion.png"} alt="#" />
 			              </div>
 			            </div>
 			            <div className="col-lg-5 section-bg-1">
 			              <div className="ltn__upcoming-project-info ltn__menu-widget">
-			                <h6 className="ltn__secondary-color">About Projects</h6>
-			                <h1>Upcoming Projects</h1>
-			                <ul>
-			                  <li>1. Project Name: <span>Quarter</span></li>
-			                  <li>2. Project Type: <span>Apartment / Home</span></li>
-			                  <li>3. Building Location: <span>New York, USA</span></li>
-			                  <li>4. No. Of Apartments: <span>568</span></li>
-			                  <li>5. Total Investment: <span>$14,500,00</span></li>
-			                </ul>
-			                <div className="btn-wrapper animated go-top">
-			                  <Link to="/contact" className="theme-btn-1 btn btn-effect-1">Download Brochure</Link>
-			                </div>
+			                <h6 className="ltn__secondary-color">Sobre Proyectos</h6>
+			                <h1>PLAZA VALLE DON CAMILO EDO DE MEX.g Projects</h1>
+			                <p>En este proyecto realizamos la impermeabilización de esta plaza.</p>
+							<div className="ltn__button-area mt-30">
+								<Link to="/portfolio" className="theme-btn-1 btn">
+									<i className="fas fa-arrow-right" />
+									Ver Proyectos
+								</Link>
+							</div>
 			              </div>
 			            </div>
 			          </div>

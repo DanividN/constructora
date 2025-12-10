@@ -224,7 +224,7 @@ class PortfolioV1 extends Component {
 						<p>Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel.</p>
 					</div>
 					<div className="btn-wrapper text-center">
-						<Link to="#" className="btn btn-transparent btn-effect-3 btn-border">LOAD MORE +</Link>
+					
 					</div>
 					</div>
 			</div>

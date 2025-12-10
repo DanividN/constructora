@@ -7,8 +7,9 @@ class ContactInfo extends Component {
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
+		let CustomClass = this.props.CustomClass ? this.props.CustomClass : ''
 
-    return <div className="ltn__contact-address-area mb-90">
+    return <div className={"ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image "+CustomClass} data-bs-bg={publicUrl+"assets/img/bg/14.jpg"}>
 				<div className="container">
 				<div className="row">
 					<div className="col-lg-4">

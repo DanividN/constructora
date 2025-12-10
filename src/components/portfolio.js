@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './global-components/navbar';
+import Navbar from './global-components/navbar-v2';
 import PageHeader from './global-components/page-header';
 import PortfolioV1 from './section-components/portfolio-v1';
 import CallToActonV2 from './section-components/call-to-action-v2';
@@ -12,11 +12,7 @@ const Portfolio_V1 = () => {
     return <div>
         <Navbar />
         <PageHeader headertitle="Our Portfolio" subheader="Portfolio" />
-        <PortfolioV1 />
-        <CallToActonV2 />
-        <BlogSlider sectionClass="pt-120" />
-        <Sponsor />
-        <CallToActionV1 />
+        <BlogSlider />
         <Footer />
     </div>
 }
