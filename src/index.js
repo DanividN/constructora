@@ -15,7 +15,6 @@ import ComingSoon from './components/coming-soon';
 import Error  from './components/404';
 import Location  from './components/location';
 
-
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
 
