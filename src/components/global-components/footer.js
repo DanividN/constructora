@@ -7,10 +7,11 @@ class Footer_v1 extends Component {
   componentDidMount() {
     const $ = window.$;
 
-    let publicUrl = process.env.PUBLIC_URL + "/";
+    let publicUrl = process.env.PUBLIC_URL;
     const minscript = document.createElement("script");
     minscript.async = true;
-    minscript.src = publicUrl + "assets/js/main.js";
+    minscript.src = publicUrl + "/assets/js/main.js";
+
 
     document.body.appendChild(minscript);
 

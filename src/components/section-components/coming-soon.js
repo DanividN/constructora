@@ -8,7 +8,7 @@ class ComingSoon extends Component {
 
     	const $ = window.$;
     	
-        let publicUrl = process.env.PUBLIC_URL+'/'
+        let publicUrl = process.env.PUBLIC_URL
         const minscript = document.createElement("script");
         minscript.async = true;
         minscript.src = publicUrl + "assets/js/main.js";
