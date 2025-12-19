@@ -72,7 +72,7 @@ class CategoryV2 extends Component {
 						</span>
 			            <span className="category-number">04</span>
 			            <span className="category-brief">
-			             Registro REPSE: Cumplimiento laboral y transparencia en subcontratación de servicios especializados y obras especializadas en México.
+			             Registro REPSE
 			            </span>
 			            <span className="category-btn d-none"><i className="flaticon-right-arrow" /></span>
 			          </Link>
